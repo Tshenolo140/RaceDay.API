@@ -1,0 +1,21 @@
+Initial commit: Created ASP.NET Core Web API project
+
+Added EF Core packages and configured appsettings.json connection string
+
+Created Models (Organiser, Participant, Event, etc.) based on ERD
+
+Configured RaceDayDbContext and relationships in OnModelCreating
+
+Added AuthController for JWT registration and login
+
+Configured JWT authentication and Swagger security in Program.cs
+
+Added EventsController with role-based access
+
+Added EnrolmentsController and Result logic
+
+Wrote unit tests for AuthController
+
+Created GitHub Actions workflow for CI/CD
+
+Updated README with setup instructions and CI/CD screenshot
